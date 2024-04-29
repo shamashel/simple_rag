@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "huggingface-basics"
+version = "0.1.0"
+description = ""
+authors = ["Shamashel <michaelgabrielinfosec@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.40.1"
+torch = "^2.3.0"
+haystack-ai = "^2.0.1"
+datasets = "^2.19.0"
+sentence-transformers = "^2.7.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
